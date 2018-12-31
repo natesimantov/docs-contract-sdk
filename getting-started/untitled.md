@@ -14,7 +14,7 @@ The recommended way to install Go on Mac is with [brew](https://brew.sh/)
 brew install go
 ```
 
-If you prefer a regular package installer instead, those are available [here](https://golang.org/dl/). If you run into trouble, go over the official Go [installation instructions](https://golang.org/doc/install).
+If you prefer a regular package installer instead, those are available [here](https://golang.org/dl/). If you run into trouble, review the official Go [installation instructions](https://golang.org/doc/install).
 
 ## Verifying the installation
 
@@ -28,15 +28,15 @@ Any version above 1.10 should suffice.
 
 ## The Go workspace
 
-Go creates a workspace on your machine where source files should be placed. This is a bit different from other programming languages which are less opinionated about the location of your source files.
+Go creates a workspace on your machine where source files should be placed. This is a bit different from other programming languages which are less strict regarding the location of your source files.
 
-Unless configured explicitly otherwise, your Go workspace is found at
+Unless configured explicitly otherwise, your Go workspace is found at:
 
 ```text
 ~/go/src
 ```
 
-The common convention is to place files in a directory structure that mirrors easily to Github. If your Github username is `johnsnow` and your repo name is `mycontract` you should place your files at
+The common convention is to place files in a directory structure that mirrors easily to Github. If your Github username is `johnsnow` and your repo name is `mycontract` you should place your files at:
 
 ```text
 ~/go/src/github.com/johnsnow/mycontract
